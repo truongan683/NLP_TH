@@ -1,0 +1,7 @@
+Query,P@5,R@5,First Relevant Rank,Reciprocal Rank,Relevant Found in Top 5,Total Relevant
+barbecue cooking class,0.0,0.0,48,0.0208,0,5
+food safety standards regulations,0.2,0.25,2,0.5,1,4
+apple macbook drive repair,0.0,0.0,34,0.0294,0,4
+natural language processing,0.2,0.2,5,0.2,1,5
+deep learning healthcare,0.0,0.0,>100,0.0,0,5
+transformer language model,0.0,0.0,>100,0.0,0,1
