@@ -1,7 +1,29 @@
-Query,P@5,R@5,First Relevant Rank,Reciprocal Rank,Relevant Found in Top 5,Total Relevant
-barbecue cooking class,0.0,0.0,48,0.0208,0,5
-food safety standards regulations,0.2,0.25,2,0.5,1,4
-apple macbook drive repair,0.0,0.0,34,0.0294,0,4
-natural language processing,0.2,0.2,5,0.2,1,5
-deep learning healthcare,0.0,0.0,>100,0.0,0,5
-transformer language model,0.0,0.0,>100,0.0,0,1
+record_type,model,split,perplexity,unseen_targets,total_targets,context,prediction,actual_next_word,prediction_probability,correct,continuation,mean_log_probability
+perplexity,1-gram MLE,train,1428.199669,0,3054005,,,,,,,
+perplexity,1-gram MLE,validation,1262.799,0,397648,,,,,,,
+perplexity,1-gram MLE,test,1250.396,0,391362,,,,,,,
+perplexity,1-gram Laplace,train,1430.236765,0,3054005,,,,,,,
+perplexity,1-gram Laplace,validation,1267.592807,0,397648,,,,,,,
+perplexity,1-gram Laplace,test,1255.208453,0,391362,,,,,,,
+perplexity,2-gram MLE,train,125.280889,0,3054005,,,,,,,
+perplexity,2-gram MLE,validation,inf,97688,397648,,,,,,,
+perplexity,2-gram MLE,test,inf,94961,391362,,,,,,,
+perplexity,2-gram Laplace,train,3141.991176,0,3054005,,,,,,,
+perplexity,2-gram Laplace,validation,3886.372130,0,397648,,,,,,,
+perplexity,2-gram Laplace,test,3798.015626,0,391362,,,,,,,
+perplexity,3-gram MLE,train,9.943303,0,3054005,,,,,,,
+perplexity,3-gram MLE,validation,inf,256986,397648,,,,,,,
+perplexity,3-gram MLE,test,inf,250248,391362,,,,,,,
+perplexity,3-gram Laplace,train,12082.815988,0,3054005,,,,,,,
+perplexity,3-gram Laplace,validation,20406.486077,0,397648,,,,,,,
+perplexity,3-gram Laplace,test,20028.704794,0,391362,,,,,,,
+prediction,2-gram Laplace,test,,,,america’s best,to,colleges,0.0020867146,false,,
+prediction,2-gram Laplace,test,,,,this ranking,in,is,0.0001424617,false,,
+prediction,2-gram Laplace,test,,,,what does,not,the,0.0122457862,false,,
+prediction,2-gram Laplace,test,,,,if you,can,first,0.0408465276,false,,
+prediction,2-gram Laplace,test,,,,over the,<unk>,past,0.0141472878,false,,
+prediction,2-gram Laplace,test,,,,if you first look,at,at,0.0089463417,true,,
+prediction,2-gram Laplace,test,,,,over the past few,years,years,0.0018607597,true,,
+ranking,3-gram Laplace,test,,,,machine learning,,,,,is useful for NLP,-9.561877
+ranking,3-gram Laplace,test,,,,machine learning,,,,,banana computer quickly,-10.801299
+ranking,3-gram Laplace,test,,,,machine learning,,,,,studies language models,-10.801299
