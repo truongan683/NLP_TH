@@ -1,0 +1,3527 @@
+{
+  "sg_d100_w5": {
+    "pairs": [
+      {
+        "a": "doctor",
+        "b": "physician",
+        "score": 0.758963406085968,
+        "intuition": 9.5
+      },
+      {
+        "a": "car",
+        "b": "automobile",
+        "score": 0.5850943326950073,
+        "intuition": 9.5
+      },
+      {
+        "a": "king",
+        "b": "queen",
+        "score": 0.47528690099716187,
+        "intuition": 7.5
+      },
+      {
+        "a": "cat",
+        "b": "dog",
+        "score": 0.6129826903343201,
+        "intuition": 7.0
+      },
+      {
+        "a": "computer",
+        "b": "banana",
+        "score": 0.01571662351489067,
+        "intuition": 0.0
+      }
+    ],
+    "spearman_intuition": 0.6155870112510925,
+    "neighbors": {
+      "doctor": [
+        [
+          "physician",
+          0.7589634656906128
+        ],
+        [
+          "anesthesia",
+          0.7328252792358398
+        ],
+        [
+          "dentist",
+          0.7133238911628723
+        ],
+        [
+          "surgeon",
+          0.6917833685874939
+        ],
+        [
+          "ophthalmologist",
+          0.6897867321968079
+        ]
+      ],
+      "hospital": [
+        [
+          "cardiologist",
+          0.6619685292243958
+        ],
+        [
+          "chongqing",
+          0.6414457559585571
+        ],
+        [
+          "rehabilitation",
+          0.6349308490753174
+        ],
+        [
+          "navicent",
+          0.6332074403762817
+        ],
+        [
+          "pediatrics",
+          0.632224440574646
+        ]
+      ],
+      "patient": [
+        [
+          "anesthesia",
+          0.6639977693557739
+        ],
+        [
+          "childbirth",
+          0.6280533075332642
+        ],
+        [
+          "doctor",
+          0.6229605078697205
+        ],
+        [
+          "hospice",
+          0.6159873008728027
+        ],
+        [
+          "checkup",
+          0.6072453856468201
+        ]
+      ],
+      "disease": [
+        [
+          "chronic",
+          0.8041166663169861
+        ],
+        [
+          "diseases",
+          0.7817336320877075
+        ],
+        [
+          "degenerative",
+          0.7749053835868835
+        ],
+        [
+          "kidney",
+          0.7514569163322449
+        ],
+        [
+          "rheumatoid",
+          0.7501479387283325
+        ]
+      ],
+      "computer": [
+        [
+          "device",
+          0.6632190942764282
+        ],
+        [
+          "encrypt",
+          0.6348161101341248
+        ],
+        [
+          "uploading",
+          0.6313602924346924
+        ],
+        [
+          "settings",
+          0.6288225650787354
+        ],
+        [
+          "desktop",
+          0.6259016990661621
+        ]
+      ],
+      "football": [
+        [
+          "basketball",
+          0.7582799196243286
+        ],
+        [
+          "willamette",
+          0.713742196559906
+        ],
+        [
+          "playoffs",
+          0.7042617201805115
+        ],
+        [
+          "championships",
+          0.7034105658531189
+        ],
+        [
+          "cardinals",
+          0.7033476233482361
+        ]
+      ],
+      "banana": [
+        [
+          "tuscan",
+          0.704112708568573
+        ],
+        [
+          "fennel",
+          0.7015048265457153
+        ],
+        [
+          "confectioners",
+          0.6985087990760803
+        ],
+        [
+          "tomatoes",
+          0.6930463314056396
+        ],
+        [
+          "roux",
+          0.6909158229827881
+        ]
+      ]
+    },
+    "analogies": [
+      {
+        "a": "king",
+        "b": "man",
+        "c": "woman",
+        "expected": "queen",
+        "covered": true,
+        "top5": [
+          [
+            "cal",
+            0.47959408164024353
+          ],
+          [
+            "slumber",
+            0.4465290904045105
+          ],
+          [
+            "gel",
+            0.4237085282802582
+          ],
+          [
+            "robes",
+            0.42275306582450867
+          ],
+          [
+            "assyrian",
+            0.42099907994270325
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "paris",
+        "b": "france",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "vilnius",
+            0.6256234049797058
+          ],
+          [
+            "rooftop",
+            0.6164050102233887
+          ],
+          [
+            "loughrea",
+            0.6042425632476807
+          ],
+          [
+            "idyllic",
+            0.6034312844276428
+          ],
+          [
+            "dpaa",
+            0.601619303226471
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "berlin",
+        "b": "germany",
+        "c": "france",
+        "expected": "paris",
+        "covered": true,
+        "top5": [
+          [
+            "madame",
+            0.6831236481666565
+          ],
+          [
+            "jeanne",
+            0.67852383852005
+          ],
+          [
+            "tussauds",
+            0.6703574657440186
+          ],
+          [
+            "une",
+            0.6700847744941711
+          ],
+          [
+            "symphony",
+            0.658567488193512
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "madrid",
+        "b": "spain",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "multipliers",
+            0.6877400279045105
+          ],
+          [
+            "yelp",
+            0.675633430480957
+          ],
+          [
+            "auctions",
+            0.6704899072647095
+          ],
+          [
+            "roundup",
+            0.655487060546875
+          ],
+          [
+            "leagues",
+            0.6485311388969421
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "father",
+        "b": "man",
+        "c": "woman",
+        "expected": "mother",
+        "covered": true,
+        "top5": [
+          [
+            "mother",
+            0.6642352938652039
+          ],
+          [
+            "deceased",
+            0.634953498840332
+          ],
+          [
+            "husband",
+            0.6317628622055054
+          ],
+          [
+            "herself",
+            0.6030731201171875
+          ],
+          [
+            "naomi",
+            0.594485342502594
+          ]
+        ],
+        "hit1": true,
+        "hit5": true
+      },
+      {
+        "a": "brother",
+        "b": "man",
+        "c": "woman",
+        "expected": "sister",
+        "covered": true,
+        "top5": [
+          [
+            "husband",
+            0.6342681050300598
+          ],
+          [
+            "deceased",
+            0.6275317072868347
+          ],
+          [
+            "youngest",
+            0.6252546310424805
+          ],
+          [
+            "mother",
+            0.6063210964202881
+          ],
+          [
+            "sister",
+            0.6035773754119873
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "walking",
+        "b": "walk",
+        "c": "swim",
+        "expected": "swimming",
+        "covered": true,
+        "top5": [
+          [
+            "dom",
+            0.6315667629241943
+          ],
+          [
+            "summers",
+            0.6108826994895935
+          ],
+          [
+            "niagara",
+            0.6054683923721313
+          ],
+          [
+            "cincinnati",
+            0.6051999926567078
+          ],
+          [
+            "riding",
+            0.5993803143501282
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "bigger",
+        "b": "big",
+        "c": "small",
+        "expected": "smaller",
+        "covered": true,
+        "top5": [
+          [
+            "smaller",
+            0.645862340927124
+          ],
+          [
+            "larger",
+            0.6342463493347168
+          ],
+          [
+            "large",
+            0.5472474694252014
+          ],
+          [
+            "elaborate",
+            0.5401561856269836
+          ],
+          [
+            "lower",
+            0.5066545605659485
+          ]
+        ],
+        "hit1": true,
+        "hit5": true
+      }
+    ],
+    "analogy_metrics": {
+      "covered": 8,
+      "total": 8,
+      "accuracy_at_1": 0.25,
+      "accuracy_at_5": 0.375
+    },
+    "search": {
+      "aggregates": {
+        "tfidf": {
+          "mrr": 0.8333333333333334,
+          "recall_at_3": 0.6388888888888888
+        },
+        "embedding": {
+          "mrr": 1.0,
+          "recall_at_3": 1.0
+        }
+      },
+      "details": [
+        {
+          "method": "tfidf",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.3333333333333333,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [],
+          "reciprocal_rank": 0.0,
+          "recall_at_3": 0.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.5,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3",
+            "med2",
+            "med1",
+            "car2",
+            "car1",
+            "food1",
+            "tech1",
+            "tech2",
+            "money1",
+            "sport2",
+            "river1",
+            "sport1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [
+            "car2",
+            "car1",
+            "med3",
+            "med1",
+            "money1",
+            "med2",
+            "tech1",
+            "river1",
+            "sport2",
+            "tech2",
+            "sport1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2",
+            "med3",
+            "med1",
+            "med2",
+            "car1",
+            "money1",
+            "sport2",
+            "car2",
+            "sport1",
+            "river1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2",
+            "sport1",
+            "tech2",
+            "car1",
+            "river1",
+            "money1",
+            "food1",
+            "car2",
+            "tech1",
+            "med3",
+            "med1",
+            "med2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1",
+            "med3",
+            "car2",
+            "car1",
+            "river1",
+            "med1",
+            "med2",
+            "tech1",
+            "tech2",
+            "sport1",
+            "food1",
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1",
+            "car1",
+            "car2",
+            "food1",
+            "sport1",
+            "sport2",
+            "money1",
+            "med1",
+            "med3",
+            "med2",
+            "tech2",
+            "tech1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        }
+      ]
+    },
+    "dimension": 100,
+    "window": 5,
+    "epochs": 8,
+    "min_count": 3,
+    "vocabulary": 29367,
+    "training_seconds": 56.93094220000785,
+    "model_bytes": 24387017,
+    "vector_bytes": 11746800,
+    "objective": "Skip-gram with negative sampling; negative=5, hs=0",
+    "seed": 42,
+    "workers": 1,
+    "sample": 0.001,
+    "shrink_windows": false
+  },
+  "sg_d100_w2": {
+    "pairs": [
+      {
+        "a": "doctor",
+        "b": "physician",
+        "score": 0.7143160700798035,
+        "intuition": 9.5
+      },
+      {
+        "a": "car",
+        "b": "automobile",
+        "score": 0.588470995426178,
+        "intuition": 9.5
+      },
+      {
+        "a": "king",
+        "b": "queen",
+        "score": 0.6166266202926636,
+        "intuition": 7.5
+      },
+      {
+        "a": "cat",
+        "b": "dog",
+        "score": 0.6668489575386047,
+        "intuition": 7.0
+      },
+      {
+        "a": "computer",
+        "b": "banana",
+        "score": 0.2028091847896576,
+        "intuition": 0.0
+      }
+    ],
+    "spearman_intuition": 0.46169025843831935,
+    "neighbors": {
+      "doctor": [
+        [
+          "physician",
+          0.7143161296844482
+        ],
+        [
+          "surgeon",
+          0.70700603723526
+        ],
+        [
+          "veterinarian",
+          0.7000941634178162
+        ],
+        [
+          "patient",
+          0.694591224193573
+        ],
+        [
+          "consult",
+          0.6860453486442566
+        ]
+      ],
+      "hospital": [
+        [
+          "yale",
+          0.6677495241165161
+        ],
+        [
+          "practitioner",
+          0.6583287715911865
+        ],
+        [
+          "daycare",
+          0.6555202603340149
+        ],
+        [
+          "yavapai",
+          0.6545875072479248
+        ],
+        [
+          "tucson",
+          0.642634928226471
+        ]
+      ],
+      "patient": [
+        [
+          "doctor",
+          0.6945911645889282
+        ],
+        [
+          "client",
+          0.6759474873542786
+        ],
+        [
+          "technician",
+          0.6596975326538086
+        ],
+        [
+          "hygiene",
+          0.6520076990127563
+        ],
+        [
+          "thorough",
+          0.6470157504081726
+        ]
+      ],
+      "disease": [
+        [
+          "chronic",
+          0.8158374428749084
+        ],
+        [
+          "liver",
+          0.7856572866439819
+        ],
+        [
+          "diastolic",
+          0.7648380994796753
+        ],
+        [
+          "dehydration",
+          0.7640571594238281
+        ],
+        [
+          "infection",
+          0.7626299262046814
+        ]
+      ],
+      "computer": [
+        [
+          "desktop",
+          0.6896519660949707
+        ],
+        [
+          "layout",
+          0.6760481595993042
+        ],
+        [
+          "streaming",
+          0.6442811489105225
+        ],
+        [
+          "vw",
+          0.6346086263656616
+        ],
+        [
+          "downloads",
+          0.6333401799201965
+        ]
+      ],
+      "football": [
+        [
+          "hockey",
+          0.8187440037727356
+        ],
+        [
+          "basketball",
+          0.776005744934082
+        ],
+        [
+          "championship",
+          0.7692992687225342
+        ],
+        [
+          "volleyball",
+          0.7601495385169983
+        ],
+        [
+          "baseball",
+          0.7581757307052612
+        ]
+      ],
+      "banana": [
+        [
+          "xlarge",
+          0.8405949473381042
+        ],
+        [
+          "pectin",
+          0.8373045921325684
+        ],
+        [
+          "yellowish",
+          0.8272722363471985
+        ],
+        [
+          "canopy",
+          0.8248198628425598
+        ],
+        [
+          "lacquer",
+          0.8184410333633423
+        ]
+      ]
+    },
+    "analogies": [
+      {
+        "a": "king",
+        "b": "man",
+        "c": "woman",
+        "expected": "queen",
+        "covered": true,
+        "top5": [
+          [
+            "eve",
+            0.5600528120994568
+          ],
+          [
+            "troy",
+            0.5521640181541443
+          ],
+          [
+            "queen",
+            0.5519203543663025
+          ],
+          [
+            "cathy",
+            0.5484104156494141
+          ],
+          [
+            "epic",
+            0.546604335308075
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "paris",
+        "b": "france",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "vilnius",
+            0.6723995804786682
+          ],
+          [
+            "nyc",
+            0.6603317260742188
+          ],
+          [
+            "medieval",
+            0.6603190898895264
+          ],
+          [
+            "charm",
+            0.6436012387275696
+          ],
+          [
+            "renaissance",
+            0.6379536390304565
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "berlin",
+        "b": "germany",
+        "c": "france",
+        "expected": "paris",
+        "covered": true,
+        "top5": [
+          [
+            "charlotte",
+            0.69759202003479
+          ],
+          [
+            "montreal",
+            0.6916108131408691
+          ],
+          [
+            "emory",
+            0.691239058971405
+          ],
+          [
+            "hillsboro",
+            0.6876628398895264
+          ],
+          [
+            "hamilton",
+            0.6870189309120178
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "madrid",
+        "b": "spain",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "buys",
+            0.6831939220428467
+          ],
+          [
+            "chelsea",
+            0.6595277190208435
+          ],
+          [
+            "loma",
+            0.6584440469741821
+          ],
+          [
+            "mcfadden",
+            0.6560755968093872
+          ],
+          [
+            "mama",
+            0.6505054235458374
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "father",
+        "b": "man",
+        "c": "woman",
+        "expected": "mother",
+        "covered": true,
+        "top5": [
+          [
+            "mother",
+            0.7440417408943176
+          ],
+          [
+            "husband",
+            0.7182993292808533
+          ],
+          [
+            "mom",
+            0.717498779296875
+          ],
+          [
+            "marriage",
+            0.712231457233429
+          ],
+          [
+            "mccluskey",
+            0.6911255717277527
+          ]
+        ],
+        "hit1": true,
+        "hit5": true
+      },
+      {
+        "a": "brother",
+        "b": "man",
+        "c": "woman",
+        "expected": "sister",
+        "covered": true,
+        "top5": [
+          [
+            "wife",
+            0.7509105801582336
+          ],
+          [
+            "husband",
+            0.7337838411331177
+          ],
+          [
+            "sister",
+            0.7092007994651794
+          ],
+          [
+            "son",
+            0.7057458162307739
+          ],
+          [
+            "father",
+            0.6907966732978821
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "walking",
+        "b": "walk",
+        "c": "swim",
+        "expected": "swimming",
+        "covered": true,
+        "top5": [
+          [
+            "alabama",
+            0.670386791229248
+          ],
+          [
+            "hiking",
+            0.6606213450431824
+          ],
+          [
+            "jumping",
+            0.6581917405128479
+          ],
+          [
+            "homeless",
+            0.6562035083770752
+          ],
+          [
+            "biking",
+            0.6559062600135803
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "bigger",
+        "b": "big",
+        "c": "small",
+        "expected": "smaller",
+        "covered": true,
+        "top5": [
+          [
+            "larger",
+            0.6982012391090393
+          ],
+          [
+            "smaller",
+            0.6495504379272461
+          ],
+          [
+            "quicker",
+            0.5826599597930908
+          ],
+          [
+            "stronger",
+            0.580392599105835
+          ],
+          [
+            "sized",
+            0.5611131191253662
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      }
+    ],
+    "analogy_metrics": {
+      "covered": 8,
+      "total": 8,
+      "accuracy_at_1": 0.125,
+      "accuracy_at_5": 0.5
+    },
+    "search": {
+      "aggregates": {
+        "tfidf": {
+          "mrr": 0.8333333333333334,
+          "recall_at_3": 0.6388888888888888
+        },
+        "embedding": {
+          "mrr": 1.0,
+          "recall_at_3": 1.0
+        }
+      },
+      "details": [
+        {
+          "method": "tfidf",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.3333333333333333,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [],
+          "reciprocal_rank": 0.0,
+          "recall_at_3": 0.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.5,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3",
+            "med2",
+            "med1",
+            "car2",
+            "tech2",
+            "food1",
+            "tech1",
+            "money1",
+            "car1",
+            "sport2",
+            "river1",
+            "sport1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [
+            "car2",
+            "car1",
+            "money1",
+            "med3",
+            "med1",
+            "tech1",
+            "river1",
+            "med2",
+            "sport2",
+            "tech2",
+            "food1",
+            "sport1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2",
+            "med2",
+            "med3",
+            "car1",
+            "car2",
+            "money1",
+            "med1",
+            "sport1",
+            "sport2",
+            "river1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2",
+            "sport1",
+            "tech2",
+            "car1",
+            "money1",
+            "food1",
+            "tech1",
+            "med1",
+            "river1",
+            "med3",
+            "car2",
+            "med2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1",
+            "med3",
+            "car2",
+            "med1",
+            "med2",
+            "car1",
+            "river1",
+            "sport1",
+            "tech2",
+            "tech1",
+            "sport2",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1",
+            "car1",
+            "sport1",
+            "food1",
+            "sport2",
+            "car2",
+            "tech2",
+            "tech1",
+            "money1",
+            "med3",
+            "med1",
+            "med2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        }
+      ]
+    },
+    "dimension": 100,
+    "window": 2,
+    "epochs": 8,
+    "min_count": 3,
+    "vocabulary": 29367,
+    "training_seconds": 32.77692799991928,
+    "model_bytes": 24387017,
+    "vector_bytes": 11746800,
+    "objective": "Skip-gram with negative sampling; negative=5, hs=0",
+    "seed": 42,
+    "workers": 1,
+    "sample": 0.001,
+    "shrink_windows": false
+  },
+  "sg_d100_w10": {
+    "pairs": [
+      {
+        "a": "doctor",
+        "b": "physician",
+        "score": 0.6365437507629395,
+        "intuition": 9.5
+      },
+      {
+        "a": "car",
+        "b": "automobile",
+        "score": 0.540075421333313,
+        "intuition": 9.5
+      },
+      {
+        "a": "king",
+        "b": "queen",
+        "score": 0.48447757959365845,
+        "intuition": 7.5
+      },
+      {
+        "a": "cat",
+        "b": "dog",
+        "score": 0.5694354772567749,
+        "intuition": 7.0
+      },
+      {
+        "a": "computer",
+        "b": "banana",
+        "score": 0.11157219111919403,
+        "intuition": 0.0
+      }
+    ],
+    "spearman_intuition": 0.6155870112510925,
+    "neighbors": {
+      "doctor": [
+        [
+          "checkup",
+          0.6509045958518982
+        ],
+        [
+          "anesthesia",
+          0.6452800631523132
+        ],
+        [
+          "pediatrician",
+          0.6451176404953003
+        ],
+        [
+          "genova",
+          0.6449097394943237
+        ],
+        [
+          "ophthalmologist",
+          0.6436632871627808
+        ]
+      ],
+      "hospital": [
+        [
+          "veterinary",
+          0.6384137272834778
+        ],
+        [
+          "pediatrics",
+          0.6294143795967102
+        ],
+        [
+          "chongqing",
+          0.627322256565094
+        ],
+        [
+          "hospitals",
+          0.6266282796859741
+        ],
+        [
+          "transported",
+          0.6128175854682922
+        ]
+      ],
+      "patient": [
+        [
+          "lung",
+          0.6462261080741882
+        ],
+        [
+          "childbirth",
+          0.622364342212677
+        ],
+        [
+          "checkup",
+          0.6214209794998169
+        ],
+        [
+          "physicians",
+          0.6197016835212708
+        ],
+        [
+          "improperly",
+          0.6190584897994995
+        ]
+      ],
+      "disease": [
+        [
+          "chronic",
+          0.784546971321106
+        ],
+        [
+          "cancers",
+          0.7726355195045471
+        ],
+        [
+          "diseases",
+          0.7569892406463623
+        ],
+        [
+          "diabetes",
+          0.7467780113220215
+        ],
+        [
+          "rheumatoid",
+          0.7444320917129517
+        ]
+      ],
+      "computer": [
+        [
+          "salinas",
+          0.6438767313957214
+        ],
+        [
+          "desktop",
+          0.610603392124176
+        ],
+        [
+          "encrypt",
+          0.6013500690460205
+        ],
+        [
+          "computers",
+          0.5908170938491821
+        ],
+        [
+          "software",
+          0.589884877204895
+        ]
+      ],
+      "football": [
+        [
+          "ncaa",
+          0.688064455986023
+        ],
+        [
+          "league",
+          0.6787241697311401
+        ],
+        [
+          "championships",
+          0.6738045811653137
+        ],
+        [
+          "willamette",
+          0.6735422611236572
+        ],
+        [
+          "bearcats",
+          0.6723634004592896
+        ]
+      ],
+      "banana": [
+        [
+          "tomato",
+          0.6926406025886536
+        ],
+        [
+          "roux",
+          0.690523624420166
+        ],
+        [
+          "paleo",
+          0.682987630367279
+        ],
+        [
+          "rye",
+          0.6798400282859802
+        ],
+        [
+          "mango",
+          0.6795248985290527
+        ]
+      ]
+    },
+    "analogies": [
+      {
+        "a": "king",
+        "b": "man",
+        "c": "woman",
+        "expected": "queen",
+        "covered": true,
+        "top5": [
+          [
+            "slumber",
+            0.47988635301589966
+          ],
+          [
+            "choosing",
+            0.4337501525878906
+          ],
+          [
+            "cal",
+            0.43214136362075806
+          ],
+          [
+            "headboard",
+            0.43055805563926697
+          ],
+          [
+            "robes",
+            0.42499104142189026
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "paris",
+        "b": "france",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "fortnum",
+            0.5619140267372131
+          ],
+          [
+            "teas",
+            0.5526812672615051
+          ],
+          [
+            "reggae",
+            0.5467708110809326
+          ],
+          [
+            "riverfront",
+            0.546657383441925
+          ],
+          [
+            "tuscany",
+            0.5454922318458557
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "berlin",
+        "b": "germany",
+        "c": "france",
+        "expected": "paris",
+        "covered": true,
+        "top5": [
+          [
+            "kaj",
+            0.631671667098999
+          ],
+          [
+            "guggenheim",
+            0.628786027431488
+          ],
+          [
+            "tussauds",
+            0.6164538264274597
+          ],
+          [
+            "solomon",
+            0.6071501970291138
+          ],
+          [
+            "madame",
+            0.6067614555358887
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "madrid",
+        "b": "spain",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "arnie",
+            0.5768740177154541
+          ],
+          [
+            "partypoker",
+            0.57625812292099
+          ],
+          [
+            "usher",
+            0.570971667766571
+          ],
+          [
+            "roundup",
+            0.569013237953186
+          ],
+          [
+            "doodle",
+            0.5639584064483643
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "father",
+        "b": "man",
+        "c": "woman",
+        "expected": "mother",
+        "covered": true,
+        "top5": [
+          [
+            "lesbia",
+            0.6027708649635315
+          ],
+          [
+            "husband",
+            0.5884523391723633
+          ],
+          [
+            "dictation",
+            0.5764331817626953
+          ],
+          [
+            "torah",
+            0.5666759610176086
+          ],
+          [
+            "mother",
+            0.5585729479789734
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "brother",
+        "b": "man",
+        "c": "woman",
+        "expected": "sister",
+        "covered": true,
+        "top5": [
+          [
+            "grandmother",
+            0.5944576263427734
+          ],
+          [
+            "youngest",
+            0.5774754285812378
+          ],
+          [
+            "lizzy",
+            0.57457035779953
+          ],
+          [
+            "sister",
+            0.5733355283737183
+          ],
+          [
+            "husband",
+            0.5718551278114319
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "walking",
+        "b": "walk",
+        "c": "swim",
+        "expected": "swimming",
+        "covered": true,
+        "top5": [
+          [
+            "riding",
+            0.551788330078125
+          ],
+          [
+            "humpback",
+            0.5440739393234253
+          ],
+          [
+            "sands",
+            0.5401980876922607
+          ],
+          [
+            "cincinnati",
+            0.5369095206260681
+          ],
+          [
+            "dolphins",
+            0.5333273410797119
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "bigger",
+        "b": "big",
+        "c": "small",
+        "expected": "smaller",
+        "covered": true,
+        "top5": [
+          [
+            "larger",
+            0.6301215887069702
+          ],
+          [
+            "large",
+            0.5696083307266235
+          ],
+          [
+            "smaller",
+            0.5432180166244507
+          ],
+          [
+            "slideouts",
+            0.5196861624717712
+          ],
+          [
+            "size",
+            0.4822031259536743
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      }
+    ],
+    "analogy_metrics": {
+      "covered": 8,
+      "total": 8,
+      "accuracy_at_1": 0.0,
+      "accuracy_at_5": 0.375
+    },
+    "search": {
+      "aggregates": {
+        "tfidf": {
+          "mrr": 0.8333333333333334,
+          "recall_at_3": 0.6388888888888888
+        },
+        "embedding": {
+          "mrr": 1.0,
+          "recall_at_3": 1.0
+        }
+      },
+      "details": [
+        {
+          "method": "tfidf",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.3333333333333333,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [],
+          "reciprocal_rank": 0.0,
+          "recall_at_3": 0.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.5,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3",
+            "med2",
+            "med1",
+            "car2",
+            "car1",
+            "money1",
+            "food1",
+            "tech2",
+            "tech1",
+            "river1",
+            "sport2",
+            "sport1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [
+            "car2",
+            "car1",
+            "med3",
+            "river1",
+            "tech1",
+            "med2",
+            "med1",
+            "money1",
+            "tech2",
+            "sport2",
+            "sport1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2",
+            "money1",
+            "med1",
+            "car1",
+            "med2",
+            "sport1",
+            "med3",
+            "sport2",
+            "car2",
+            "food1",
+            "river1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2",
+            "sport1",
+            "river1",
+            "tech2",
+            "money1",
+            "car1",
+            "food1",
+            "car2",
+            "tech1",
+            "med1",
+            "med3",
+            "med2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1",
+            "med3",
+            "car2",
+            "med2",
+            "river1",
+            "car1",
+            "med1",
+            "tech2",
+            "sport1",
+            "food1",
+            "tech1",
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1",
+            "car1",
+            "car2",
+            "food1",
+            "sport1",
+            "sport2",
+            "money1",
+            "med1",
+            "med3",
+            "tech2",
+            "med2",
+            "tech1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        }
+      ]
+    },
+    "dimension": 100,
+    "window": 10,
+    "epochs": 8,
+    "min_count": 3,
+    "vocabulary": 29367,
+    "training_seconds": 114.78666350001004,
+    "model_bytes": 24387020,
+    "vector_bytes": 11746800,
+    "objective": "Skip-gram with negative sampling; negative=5, hs=0",
+    "seed": 42,
+    "workers": 1,
+    "sample": 0.001,
+    "shrink_windows": false
+  },
+  "sg_d50_w5": {
+    "pairs": [
+      {
+        "a": "doctor",
+        "b": "physician",
+        "score": 0.8560739159584045,
+        "intuition": 9.5
+      },
+      {
+        "a": "car",
+        "b": "automobile",
+        "score": 0.6811845898628235,
+        "intuition": 9.5
+      },
+      {
+        "a": "king",
+        "b": "queen",
+        "score": 0.5468789339065552,
+        "intuition": 7.5
+      },
+      {
+        "a": "cat",
+        "b": "dog",
+        "score": 0.77642822265625,
+        "intuition": 7.0
+      },
+      {
+        "a": "computer",
+        "b": "banana",
+        "score": -0.0006002369336783886,
+        "intuition": 0.0
+      }
+    ],
+    "spearman_intuition": 0.6155870112510925,
+    "neighbors": {
+      "doctor": [
+        [
+          "physician",
+          0.8560739755630493
+        ],
+        [
+          "anesthesia",
+          0.8143985271453857
+        ],
+        [
+          "dentist",
+          0.7832952737808228
+        ],
+        [
+          "ophthalmologist",
+          0.764434278011322
+        ],
+        [
+          "medication",
+          0.7640831470489502
+        ]
+      ],
+      "hospital": [
+        [
+          "sinai",
+          0.7455651760101318
+        ],
+        [
+          "cardiologist",
+          0.7363842725753784
+        ],
+        [
+          "chiropractic",
+          0.7251352071762085
+        ],
+        [
+          "pediatrics",
+          0.7249941825866699
+        ],
+        [
+          "chongqing",
+          0.7187178730964661
+        ]
+      ],
+      "patient": [
+        [
+          "anesthesia",
+          0.7623672485351562
+        ],
+        [
+          "childbirth",
+          0.7078367471694946
+        ],
+        [
+          "physician",
+          0.7035309076309204
+        ],
+        [
+          "doctor",
+          0.6907236576080322
+        ],
+        [
+          "child",
+          0.6884717345237732
+        ]
+      ],
+      "disease": [
+        [
+          "chronic",
+          0.8635097742080688
+        ],
+        [
+          "hypertension",
+          0.8490760326385498
+        ],
+        [
+          "respiratory",
+          0.8401274085044861
+        ],
+        [
+          "degenerative",
+          0.8377209901809692
+        ],
+        [
+          "diseases",
+          0.8354634046554565
+        ]
+      ],
+      "computer": [
+        [
+          "device",
+          0.7582524418830872
+        ],
+        [
+          "laptop",
+          0.7526720762252808
+        ],
+        [
+          "settings",
+          0.7305962443351746
+        ],
+        [
+          "remotely",
+          0.7178998589515686
+        ],
+        [
+          "devices",
+          0.7146502137184143
+        ]
+      ],
+      "football": [
+        [
+          "basketball",
+          0.8421467542648315
+        ],
+        [
+          "league",
+          0.8004001975059509
+        ],
+        [
+          "willamette",
+          0.7933043837547302
+        ],
+        [
+          "nba",
+          0.7784485816955566
+        ],
+        [
+          "undefeated",
+          0.7716347575187683
+        ]
+      ],
+      "banana": [
+        [
+          "maple",
+          0.7989046573638916
+        ],
+        [
+          "blueberries",
+          0.7668835520744324
+        ],
+        [
+          "tomatoes",
+          0.7647758722305298
+        ],
+        [
+          "tuscan",
+          0.7601126432418823
+        ],
+        [
+          "fennel",
+          0.7586477398872375
+        ]
+      ]
+    },
+    "analogies": [
+      {
+        "a": "king",
+        "b": "man",
+        "c": "woman",
+        "expected": "queen",
+        "covered": true,
+        "top5": [
+          [
+            "susan",
+            0.567520022392273
+          ],
+          [
+            "lowell",
+            0.5669899582862854
+          ],
+          [
+            "recollections",
+            0.5486320853233337
+          ],
+          [
+            "lamont",
+            0.5473947525024414
+          ],
+          [
+            "elder",
+            0.5472613573074341
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "paris",
+        "b": "france",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "idyllic",
+            0.7573967576026917
+          ],
+          [
+            "loughrea",
+            0.753129243850708
+          ],
+          [
+            "vilnius",
+            0.746172308921814
+          ],
+          [
+            "celebration",
+            0.7276436686515808
+          ],
+          [
+            "reggae",
+            0.7226568460464478
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "berlin",
+        "b": "germany",
+        "c": "france",
+        "expected": "paris",
+        "covered": true,
+        "top5": [
+          [
+            "symphony",
+            0.7673524022102356
+          ],
+          [
+            "spanish",
+            0.7653691172599792
+          ],
+          [
+            "amsterdam",
+            0.7562536001205444
+          ],
+          [
+            "madame",
+            0.7538884282112122
+          ],
+          [
+            "univ",
+            0.7505314350128174
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "madrid",
+        "b": "spain",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "multipliers",
+            0.7529250979423523
+          ],
+          [
+            "roundup",
+            0.7405954003334045
+          ],
+          [
+            "justin",
+            0.7268773913383484
+          ],
+          [
+            "auctions",
+            0.7213537096977234
+          ],
+          [
+            "latino",
+            0.7210954427719116
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "father",
+        "b": "man",
+        "c": "woman",
+        "expected": "mother",
+        "covered": true,
+        "top5": [
+          [
+            "mother",
+            0.7812793850898743
+          ],
+          [
+            "deceased",
+            0.7503644227981567
+          ],
+          [
+            "husband",
+            0.7292003631591797
+          ],
+          [
+            "mom",
+            0.7199748158454895
+          ],
+          [
+            "aunt",
+            0.7010568976402283
+          ]
+        ],
+        "hit1": true,
+        "hit5": true
+      },
+      {
+        "a": "brother",
+        "b": "man",
+        "c": "woman",
+        "expected": "sister",
+        "covered": true,
+        "top5": [
+          [
+            "wife",
+            0.7187236547470093
+          ],
+          [
+            "husband",
+            0.7117350697517395
+          ],
+          [
+            "dad",
+            0.7083412408828735
+          ],
+          [
+            "deceased",
+            0.7049445509910583
+          ],
+          [
+            "mother",
+            0.693852961063385
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "walking",
+        "b": "walk",
+        "c": "swim",
+        "expected": "swimming",
+        "covered": true,
+        "top5": [
+          [
+            "childhood",
+            0.694493293762207
+          ],
+          [
+            "dom",
+            0.6930158734321594
+          ],
+          [
+            "cincinnati",
+            0.6860415935516357
+          ],
+          [
+            "biking",
+            0.6848572492599487
+          ],
+          [
+            "olympia",
+            0.6624377369880676
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "bigger",
+        "b": "big",
+        "c": "small",
+        "expected": "smaller",
+        "covered": true,
+        "top5": [
+          [
+            "larger",
+            0.7961433529853821
+          ],
+          [
+            "smaller",
+            0.7368364334106445
+          ],
+          [
+            "large",
+            0.676122784614563
+          ],
+          [
+            "rather",
+            0.6211419701576233
+          ],
+          [
+            "simpler",
+            0.5961308479309082
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      }
+    ],
+    "analogy_metrics": {
+      "covered": 8,
+      "total": 8,
+      "accuracy_at_1": 0.125,
+      "accuracy_at_5": 0.25
+    },
+    "search": {
+      "aggregates": {
+        "tfidf": {
+          "mrr": 0.8333333333333334,
+          "recall_at_3": 0.6388888888888888
+        },
+        "embedding": {
+          "mrr": 1.0,
+          "recall_at_3": 1.0
+        }
+      },
+      "details": [
+        {
+          "method": "tfidf",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.3333333333333333,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [],
+          "reciprocal_rank": 0.0,
+          "recall_at_3": 0.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.5,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3",
+            "med2",
+            "med1",
+            "car2",
+            "tech2",
+            "money1",
+            "car1",
+            "tech1",
+            "food1",
+            "river1",
+            "sport2",
+            "sport1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [
+            "car2",
+            "car1",
+            "med3",
+            "money1",
+            "tech1",
+            "med2",
+            "med1",
+            "river1",
+            "sport2",
+            "tech2",
+            "sport1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2",
+            "med1",
+            "med3",
+            "car1",
+            "med2",
+            "money1",
+            "car2",
+            "sport2",
+            "sport1",
+            "river1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport1",
+            "sport2",
+            "car1",
+            "tech2",
+            "money1",
+            "river1",
+            "tech1",
+            "food1",
+            "car2",
+            "med1",
+            "med3",
+            "med2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1",
+            "med3",
+            "car2",
+            "car1",
+            "river1",
+            "med1",
+            "med2",
+            "tech1",
+            "tech2",
+            "sport1",
+            "food1",
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1",
+            "car1",
+            "car2",
+            "sport1",
+            "food1",
+            "money1",
+            "sport2",
+            "med1",
+            "med3",
+            "med2",
+            "tech2",
+            "tech1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        }
+      ]
+    },
+    "dimension": 50,
+    "window": 5,
+    "epochs": 8,
+    "min_count": 3,
+    "vocabulary": 29367,
+    "training_seconds": 53.38504860003013,
+    "model_bytes": 12640214,
+    "vector_bytes": 5873400,
+    "objective": "Skip-gram with negative sampling; negative=5, hs=0",
+    "seed": 42,
+    "workers": 1,
+    "sample": 0.001,
+    "shrink_windows": false
+  },
+  "sg_d300_w5": {
+    "pairs": [
+      {
+        "a": "doctor",
+        "b": "physician",
+        "score": 0.6358931660652161,
+        "intuition": 9.5
+      },
+      {
+        "a": "car",
+        "b": "automobile",
+        "score": 0.45646822452545166,
+        "intuition": 9.5
+      },
+      {
+        "a": "king",
+        "b": "queen",
+        "score": 0.4349994957447052,
+        "intuition": 7.5
+      },
+      {
+        "a": "cat",
+        "b": "dog",
+        "score": 0.5124285817146301,
+        "intuition": 7.0
+      },
+      {
+        "a": "computer",
+        "b": "banana",
+        "score": 0.04305020719766617,
+        "intuition": 0.0
+      }
+    ],
+    "spearman_intuition": 0.6155870112510925,
+    "neighbors": {
+      "doctor": [
+        [
+          "physician",
+          0.6358931660652161
+        ],
+        [
+          "dentist",
+          0.6271886825561523
+        ],
+        [
+          "ophthalmologist",
+          0.61667400598526
+        ],
+        [
+          "surgeon",
+          0.6159868240356445
+        ],
+        [
+          "anesthesia",
+          0.6042407155036926
+        ]
+      ],
+      "hospital": [
+        [
+          "cardiologist",
+          0.6059333086013794
+        ],
+        [
+          "samitivej",
+          0.5818281769752502
+        ],
+        [
+          "navicent",
+          0.5805060267448425
+        ],
+        [
+          "rehabilitation",
+          0.5773108005523682
+        ],
+        [
+          "sinai",
+          0.5762556791305542
+        ]
+      ],
+      "patient": [
+        [
+          "anesthesia",
+          0.5961936116218567
+        ],
+        [
+          "searchexpress",
+          0.5670555830001831
+        ],
+        [
+          "hospice",
+          0.5509992241859436
+        ],
+        [
+          "childbirth",
+          0.5473735332489014
+        ],
+        [
+          "orthotics",
+          0.5456089377403259
+        ]
+      ],
+      "disease": [
+        [
+          "chronic",
+          0.7136784791946411
+        ],
+        [
+          "diseases",
+          0.6944952011108398
+        ],
+        [
+          "degenerative",
+          0.6910610795021057
+        ],
+        [
+          "artery",
+          0.6887154579162598
+        ],
+        [
+          "kidney",
+          0.6852521896362305
+        ]
+      ],
+      "computer": [
+        [
+          "desktop",
+          0.5514495968818665
+        ],
+        [
+          "encrypt",
+          0.5468565821647644
+        ],
+        [
+          "laptops",
+          0.5466009974479675
+        ],
+        [
+          "salinas",
+          0.5430155992507935
+        ],
+        [
+          "provo",
+          0.5404598116874695
+        ]
+      ],
+      "football": [
+        [
+          "basketball",
+          0.6719367504119873
+        ],
+        [
+          "playoffs",
+          0.660374641418457
+        ],
+        [
+          "willamette",
+          0.6575605869293213
+        ],
+        [
+          "cardinals",
+          0.6533117294311523
+        ],
+        [
+          "undefeated",
+          0.6484500765800476
+        ]
+      ],
+      "banana": [
+        [
+          "fennel",
+          0.6855681538581848
+        ],
+        [
+          "tuscan",
+          0.6854918599128723
+        ],
+        [
+          "roux",
+          0.677320659160614
+        ],
+        [
+          "confectioners",
+          0.6751198768615723
+        ],
+        [
+          "blueberries",
+          0.6698417663574219
+        ]
+      ]
+    },
+    "analogies": [
+      {
+        "a": "king",
+        "b": "man",
+        "c": "woman",
+        "expected": "queen",
+        "covered": true,
+        "top5": [
+          [
+            "queen",
+            0.3986627757549286
+          ],
+          [
+            "cal",
+            0.3974684476852417
+          ],
+          [
+            "slumber",
+            0.39431384205818176
+          ],
+          [
+            "sorcerer",
+            0.38605138659477234
+          ],
+          [
+            "lizzy",
+            0.37765997648239136
+          ]
+        ],
+        "hit1": true,
+        "hit5": true
+      },
+      {
+        "a": "paris",
+        "b": "france",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "idyllic",
+            0.566379189491272
+          ],
+          [
+            "loughrea",
+            0.5606138706207275
+          ],
+          [
+            "vilnius",
+            0.556768536567688
+          ],
+          [
+            "rooftop",
+            0.5519938468933105
+          ],
+          [
+            "collina",
+            0.5379923582077026
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "berlin",
+        "b": "germany",
+        "c": "france",
+        "expected": "paris",
+        "covered": true,
+        "top5": [
+          [
+            "madame",
+            0.6191194653511047
+          ],
+          [
+            "tussauds",
+            0.6142726540565491
+          ],
+          [
+            "wu",
+            0.5928861498832703
+          ],
+          [
+            "une",
+            0.59242182970047
+          ],
+          [
+            "symphony",
+            0.5871710777282715
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "madrid",
+        "b": "spain",
+        "c": "italy",
+        "expected": "rome",
+        "covered": true,
+        "top5": [
+          [
+            "multipliers",
+            0.6201234459877014
+          ],
+          [
+            "yelp",
+            0.6144915223121643
+          ],
+          [
+            "roundup",
+            0.5966346263885498
+          ],
+          [
+            "whirlwind",
+            0.5886924266815186
+          ],
+          [
+            "fairs",
+            0.5856500267982483
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "father",
+        "b": "man",
+        "c": "woman",
+        "expected": "mother",
+        "covered": true,
+        "top5": [
+          [
+            "deceased",
+            0.5777772665023804
+          ],
+          [
+            "mother",
+            0.5647609233856201
+          ],
+          [
+            "husband",
+            0.5573189854621887
+          ],
+          [
+            "grandmother",
+            0.5570353269577026
+          ],
+          [
+            "aunt",
+            0.5531038641929626
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "brother",
+        "b": "man",
+        "c": "woman",
+        "expected": "sister",
+        "covered": true,
+        "top5": [
+          [
+            "grandmother",
+            0.5810933113098145
+          ],
+          [
+            "deceased",
+            0.5755290389060974
+          ],
+          [
+            "youngest",
+            0.5638685822486877
+          ],
+          [
+            "sister",
+            0.5559060573577881
+          ],
+          [
+            "aunt",
+            0.5534816384315491
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      },
+      {
+        "a": "walking",
+        "b": "walk",
+        "c": "swim",
+        "expected": "swimming",
+        "covered": true,
+        "top5": [
+          [
+            "dom",
+            0.5724231600761414
+          ],
+          [
+            "biking",
+            0.5720998644828796
+          ],
+          [
+            "skiing",
+            0.5558018684387207
+          ],
+          [
+            "hiking",
+            0.5547040104866028
+          ],
+          [
+            "summers",
+            0.552528440952301
+          ]
+        ],
+        "hit1": false,
+        "hit5": false
+      },
+      {
+        "a": "bigger",
+        "b": "big",
+        "c": "small",
+        "expected": "smaller",
+        "covered": true,
+        "top5": [
+          [
+            "larger",
+            0.5223407745361328
+          ],
+          [
+            "smaller",
+            0.517776370048523
+          ],
+          [
+            "quicker",
+            0.4135614335536957
+          ],
+          [
+            "elaborate",
+            0.4122430086135864
+          ],
+          [
+            "simpler",
+            0.41015616059303284
+          ]
+        ],
+        "hit1": false,
+        "hit5": true
+      }
+    ],
+    "analogy_metrics": {
+      "covered": 8,
+      "total": 8,
+      "accuracy_at_1": 0.125,
+      "accuracy_at_5": 0.5
+    },
+    "search": {
+      "aggregates": {
+        "tfidf": {
+          "mrr": 0.8333333333333334,
+          "recall_at_3": 0.6388888888888888
+        },
+        "embedding": {
+          "mrr": 1.0,
+          "recall_at_3": 1.0
+        }
+      },
+      "details": [
+        {
+          "method": "tfidf",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.3333333333333333,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [],
+          "reciprocal_rank": 0.0,
+          "recall_at_3": 0.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 0.5,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "tfidf",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "medical treatment",
+          "relevant": [
+            "med1",
+            "med2",
+            "med3"
+          ],
+          "ranking": [
+            "med3",
+            "med2",
+            "med1",
+            "car2",
+            "food1",
+            "car1",
+            "money1",
+            "tech1",
+            "tech2",
+            "sport2",
+            "river1",
+            "sport1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "vehicle repair",
+          "relevant": [
+            "car1",
+            "car2"
+          ],
+          "ranking": [
+            "car2",
+            "car1",
+            "med3",
+            "money1",
+            "med1",
+            "med2",
+            "tech1",
+            "sport2",
+            "river1",
+            "tech2",
+            "sport1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "computer program",
+          "relevant": [
+            "tech1",
+            "tech2"
+          ],
+          "ranking": [
+            "tech1",
+            "tech2",
+            "med1",
+            "car1",
+            "money1",
+            "med2",
+            "med3",
+            "sport2",
+            "car2",
+            "sport1",
+            "river1",
+            "food1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "soccer match",
+          "relevant": [
+            "sport1",
+            "sport2"
+          ],
+          "ranking": [
+            "sport2",
+            "sport1",
+            "tech2",
+            "car1",
+            "money1",
+            "river1",
+            "food1",
+            "car2",
+            "tech1",
+            "med3",
+            "med1",
+            "med2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "monetary savings",
+          "relevant": [
+            "money1"
+          ],
+          "ranking": [
+            "money1",
+            "med3",
+            "car2",
+            "car1",
+            "river1",
+            "med1",
+            "med2",
+            "tech2",
+            "sport1",
+            "tech1",
+            "food1",
+            "sport2"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        },
+        {
+          "method": "embedding",
+          "query": "river shore",
+          "relevant": [
+            "river1"
+          ],
+          "ranking": [
+            "river1",
+            "car2",
+            "car1",
+            "food1",
+            "sport1",
+            "sport2",
+            "money1",
+            "med1",
+            "med3",
+            "tech2",
+            "med2",
+            "tech1"
+          ],
+          "reciprocal_rank": 1.0,
+          "recall_at_3": 1.0,
+          "query_token_coverage": 1.0
+        }
+      ]
+    },
+    "dimension": 300,
+    "window": 5,
+    "epochs": 8,
+    "min_count": 3,
+    "vocabulary": 29367,
+    "training_seconds": 100.68977170006838,
+    "model_bytes": 71374223,
+    "vector_bytes": 35240400,
+    "objective": "Skip-gram with negative sampling; negative=5, hs=0",
+    "seed": 42,
+    "workers": 1,
+    "sample": 0.001,
+    "shrink_windows": false
+  }
+}

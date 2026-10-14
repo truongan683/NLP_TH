@@ -1,0 +1,14 @@
+{
+  "source_file": "c4-train.00000-of-01024-30K.json",
+  "source_sha256": "568da6a0ba4750a9e20a55a06dfba1c18dd057dc21f3e20c240183abfd912988",
+  "selection": "first N documents in original file order; no keyword filtering",
+  "requested_documents": 6000,
+  "source_documents": 6000,
+  "sentences": 128104,
+  "tokens": 2224629,
+  "raw_vocabulary": 67927,
+  "min_count": 3,
+  "retained_vocabulary": 29367,
+  "preprocessing": "lowercase; split on . ! ? newline; [a-z]+ tokens; >=3 tokens/sentence; keep stopwords",
+  "corpus_sha256": "fe28252c899d883b2e90a879e8d9625295b167b551db576307da2ba4cc568e4e"
+}

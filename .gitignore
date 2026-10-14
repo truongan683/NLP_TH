@@ -24,3 +24,6 @@ __pycache__/
 Ảnh làm bài trên giấy/
 calculations.md
 gop_anh_thanh_pdf.ipynb
+.ipynb_checkpoints/
+models/
+!calculations.md
