@@ -27,9 +27,8 @@ gop_anh_thanh_pdf.ipynb
 .ipynb_checkpoints/
 models/
 !calculations.md
-W6.pdf
-W5.pdf
-W7.pdf
+*.pdf
 docs/
 /lab07.zip
 /training_output/
+tmptra0oskv/context.txt
